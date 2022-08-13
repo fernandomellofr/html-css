@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+
+        /*veja o material em pdf para ver mais subclasses como hover*/
+    body{
+        font-family: 'Times New Roman', Times, serif;
+    }
+     
+    nav > p {
+        display: none;
+    }
+    
+    nav:hover > p{
+        display: block;
+        color: white;
+        background-color: rgb(186, 236, 201);
+        width: 300px;
+    }
+
+     nav:hover {
+
+        color: rgb(124, 107, 107);
+
+     }
+   
+     
+     
+
+    </style>
+</head>
+<body>
+
+    <h1>Exemplo de hover</h1>
+     <p>Exemplo de menu</p>
+     <nav>
+        Menu
+          <p><a href="#">Link 1</a></p>
+          <p><a href="#">link 2</a></p>
+          <p><a href="#">link 3</a></p>
+     </nav>
+        <p>Fim do Exercicio</p>
+</body>
+</html>
