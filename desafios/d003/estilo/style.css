@@ -139,8 +139,9 @@ main img{
 main img.pequena{
     max-width: 350px;
 }
-
-div.video{
+/*div antes da class video
+*/
+.video{
     background-color: #1a5c37;
     margin: 0px -20px 30px -20px ;
     margin-bottom: 30px;
@@ -149,7 +150,7 @@ div.video{
 
 }
 
-div.video > iframe{
+.video > iframe{
     position: absolute;
     top: 5%;
     left: 5%;
